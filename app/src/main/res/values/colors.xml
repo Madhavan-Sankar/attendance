@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <drawable name="gradient">@drawable/gradient6</drawable>
+    <color name="colorPrimary">#1f4068</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="dark_blue">#009FFF</color>
+    <color name="sand_brown">#6F4242</color>
+    <color name="red">#FF0000</color>
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="splash">#4C954B</color>
+    <color name="splash1">#210059</color>
+    <color name="violet">#9a2eb1</color>
+    <color name="orange">#FF4500</color>
+    <color name="dark_orange">#FF8C00</color>
+    <color name="yellow_orange">#FFCC00</color>
+    <color name="teal">#008080</color>
+</resources>

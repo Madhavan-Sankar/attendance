@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Attendance</string>
+    <string name="title_activity_main3">Main3Activity</string>
+    <string name="tab_text_1">Home</string>
+    <string name="tab_text_2">Students Records</string>
+    <string name="tab_text_2s">Staff Records</string>
+    <string name="tab_text_3">Time Chart</string>
+    <string name="nm">Name:</string>
+    <string name="no">Number:</string>
+    <string name="c">Course:</string>
+    <string name="sec">Section:</string>
+    <string name="search" />
+</resources>
