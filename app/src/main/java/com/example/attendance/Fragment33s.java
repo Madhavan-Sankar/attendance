@@ -164,7 +164,9 @@ public class Fragment33s extends Fragment {
                                                 e.setDate(date);
                                                 e.setC(s.getCourse());
                                                 e.setSec(s.getDep());
-                                                ref.child(""+ UUID.randomUUID()).setValue(e);
+                                                String date1[] = date.split("/");
+                                                String headdate = String.join(":",date1);
+                                                ref.child(""+ headdate+" "+time).setValue(e);
                                                 Toast.makeText(getContext(), "Thank You " + s.getNm(), LENGTH_SHORT).show();
                                                 break;
                                             }

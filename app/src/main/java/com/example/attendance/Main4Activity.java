@@ -254,6 +254,7 @@ public class Main4Activity extends AppCompatActivity  implements DatePickerDialo
             build.append("Name,Course,Section,Date,Time");
             for(entry l:list)
             {
+                Toast.makeText(getApplicationContext(),""+l.getDate()+" "+l.getTime(),Toast.LENGTH_LONG).show();
                 build.append("\n"+l.getNm()+","+l.getC()+","+l.getSec()+","+l.getDate()+","+l.getTime());
             }
             File path = Environment.getExternalStorageDirectory();
@@ -267,7 +268,7 @@ public class Main4Activity extends AppCompatActivity  implements DatePickerDialo
             bw.close();
         } catch (Exception e)
         {
-            Toast.makeText(getApplicationContext(),e.getMessage(),Toast.LENGTH_SHORT).show();
+            //Toast.makeText(getApplicationContext(),e.getMessage(),Toast.LENGTH_SHORT).show();
             Toast.makeText(getApplicationContext(),"Press again!!",Toast.LENGTH_LONG).show();
         }
     }
